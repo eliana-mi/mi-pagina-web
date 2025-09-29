@@ -1,0 +1,68 @@
+body.maravilla-body {
+   margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background: linear-gradient(to bottom, #1a1a1a, #333); 
+   color: white; 
+   min-height: 100vh; 
+  }
+
+.menu { 
+  background-color: #bd7676; 
+  padding: 1rem; 
+  position: sticky; 
+  top: 0; z-index: 1000;
+  box-shadow: 0 2px 10px #c79191;
+ }
+
+.menu ul {
+   display: flex; 
+   justify-content: center; 
+   list-style: none; 
+   margin: 0; 
+   padding: 0; 
+   gap: 2rem;
+   }
+
+.menu a { 
+  color: #1a1919; 
+  text-decoration: none; 
+  font-weight: bold; 
+  font-size: 1.1rem; 
+  transition: color 0.3s, 
+  border-bottom 0.3s; 
+  padding: 0.5rem; 
+}
+
+.menu a:hover { 
+  color: #fff; 
+  border-bottom: 2px solid #d1a4b3; 
+}
+
+.maravilla-container { 
+  max-width: 900px; 
+  margin: 2rem auto; 
+  padding: 2rem; 
+  background-color: rgba(0, 0, 0, 0.7); 
+  border-radius: 15px; 
+  box-shadow: 0 4px 20px rgba(255, 204, 0, 0.2); 
+}
+
+.maravilla-container h1, .maravilla-container h2 { 
+  color: #914145; 
+  text-align: center; 
+}
+
+.maravilla-container p { 
+  font-size: 1rem; 
+  line-height: 1.6; 
+  text-align: justify; 
+  margin-top: 1rem;
+ }
+
+.maravilla-container img { 
+  display: block; 
+  margin: 1rem auto; 
+  max-width: 100%; 
+  height: 300px;
+  border-radius: 10px; 
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+  }

@@ -1,0 +1,85 @@
+.titulo {
+  text-align: center;
+  font-size: 2rem;
+  color: #ffcc00;
+  margin: 2rem 0;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.cuadro {
+  width: 250px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  padding-bottom: 1rem;
+}
+
+.cuadro img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.cuadro p {
+  margin: 10px auto;
+  padding: 0 10px;
+  font-size: 15px;
+  line-height: 1.4;
+  text-align: center;
+  font-weight: normal;
+}
+
+
+
+.cuadro:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(255, 204, 0, 0.6);
+}
+
+.cuadro:hover img {
+  transform: scale(1.1);
+}
+
+.cuadro:hover p {
+  color: #ffcc00;
+}
+
+  .concepto1{
+    color: rgb(223, 225, 226);
+  }
+
+  .concepto2{
+    color: rgb(223, 225, 226);
+  }
+
+  .concepto3{
+    color: rgb(223, 225, 226);
+  }
+
+  .concepto4{
+    color: rgb(223, 225, 226);
+  }
+
+  .concepto5{
+    color: rgb(223, 225, 226);
+  }
+
+  .concepto6{
+    color: rgb(223, 225, 226);
+  }
+
+  .concepto7{
+    color: rgb(223, 225, 226);
+  }
